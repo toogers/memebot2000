@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'xyz.tooger'
+version '0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:3.6.0_361'
+    compile 'com.github.BtoBastian.sdcf4j:sdcf4j:v1.0.9'
+    compile 'com.github.BtoBastian.sdcf4j:sdcf4j-jda3:v1.0.9'
+}
